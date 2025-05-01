@@ -5,7 +5,7 @@
 
 .reminder-section-container {
     padding: 30px 10px 60px;
-    margin: 38px 10px;
+    margin: -4px 10px 38px 10px;
 }
 
 .reminder-section-events-container {
@@ -79,7 +79,7 @@
     scrollbar-width: none;
     -ms-overflow-style: none;
     margin: 62px 0 0 41px;
-gap: 20px;
+    gap: 20px;
 }
 
 .reminder-section-carousel-container {
