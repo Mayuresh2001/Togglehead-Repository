@@ -1,0 +1,123 @@
+.reminder-section-wrapper {
+    width: 100%;
+    background: #fff;
+}
+
+.reminder-section-container {
+    padding: 30px 10px 60px;
+    margin: 38px 10px;
+}
+
+.reminder-section-events-container {
+    padding: 25px 7px 25px 40px;
+
+}
+
+.reminder-section-title {
+    text-align: start;
+    padding: 0px 20px 5px 0;
+    border-right: 1px solid #D1D1D1;
+}
+
+.reminder-section-upper-part {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+.reminder-section-heading {
+    color: var(--color-primary);
+    padding: 12px 20px 5px 0;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.reminder-section-desc {
+    font-size: small;
+    color: var(--color-font);
+    padding: 0px 20px 5px 0;
+
+}
+
+.reminder-section-events {}
+
+.event-heading {
+    color: var(--color-primary);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.event-calendar-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 16px;
+    gap: 27px;
+}
+
+.event-calendar-card {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.reminder-section-carousel-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin: 62px 0 0 41px;
+gap: 20px;
+}
+
+.reminder-section-carousel-container {
+    min-width: 412px;
+    background-image: url('../assets/cardbackground.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 26px;
+}
+
+.reminder-section-carousel-card {
+    width: 100%;
+    color: #fff;
+    padding: 31px 0px 31px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.reminder-section-carousel-card-title {}
+
+.reminder-section-carousel-card-description {
+    max-width: 19rem;
+}
+
+.reminder-section-carousel-card-button {
+    background: transparent;
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+}
+
+.carousel-card-button {
+    margin: 0 0 -4px 5px;
+
+    .image-card {
+        margin-bottom: -4px;
+    }
+}
