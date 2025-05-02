@@ -25,7 +25,7 @@ const AboutSection = () => {
                     <div className='section-links'>
                         {images.map((item, index) => (
                             <div key={index} style={{ transform: index == 0 ? " scale(0.6)" : 'scale(1)' }}>
-                                <img src={item} alt={item} width={35} />
+                                <img loading='lazy' src={item} alt={item} width={35} />
                             </div>
                         ))}
                     </div>
@@ -35,20 +35,20 @@ const AboutSection = () => {
                         <ul >
                             <li className='about-section-list'>
                                 <span>
-                                    <img src={location} alt='location' width={15} /></span>
+                                    <img loading='lazy' src={location} alt='location' width={15} /></span>
                                 <div className='list-description'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
 
                                 </div>
                             </li>
                             <li className='about-section-list'>
                                 <span>
-                                    <img src={watch} alt='watch' width={15} />
+                                    <img loading='lazy' src={watch} alt='watch' width={15} />
                                 </span>
                                 <div className='list-description'>Lorem ipsum dolor sit amet, consetetur sadipscing</div>
                             </li>
                             <li className='about-section-list'>
                                 <span>
-                                    <img src={watch} alt='watch' width={15} />
+                                    <img loading='lazy' src={watch} alt='watch' width={15} />
                                 </span>
                                 <div className='list-description'>
                                     Lorem ipsum dolor sit amet, consetetur sadipscing
@@ -56,7 +56,7 @@ const AboutSection = () => {
                             </li>
                             <li className='about-section-list'>
                                 <span>
-                                    <img src={train} alt='train' width={15} />
+                                    <img loading='lazy' src={train} alt='train' width={15} />
                                 </span>
                                 <div className='list-description'>
                                     Lorem ipsum dolor sit amet, consetetur sadipscing 

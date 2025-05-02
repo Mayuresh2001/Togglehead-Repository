@@ -6,6 +6,7 @@ import AchievementSection from './Components/AchievementSection'
 import FaqSection from './Components/FaqSection'
 import SubscribeSection from './Components/SubscribeSection'
 import AboutSection from './Components/AboutSection'
+import CopyrightSection from './Components/CopyrightSection'
 
 function App() {
   return (<div id='main-wrapper'>
@@ -17,6 +18,7 @@ function App() {
       <FaqSection/>
       <SubscribeSection/>
       <AboutSection/>
+      <CopyrightSection/>
     </div>
   </div>)
 }
