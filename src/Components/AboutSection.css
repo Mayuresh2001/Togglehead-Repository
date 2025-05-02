@@ -13,9 +13,7 @@
     background-size: cover;
     margin: -54px 0 0 0;
     /* padding: 7rem 0; */
-    @media (min-width: 1024px) and (max-width: 1200px) {
-        transform: scale(0.9);
-    }
+   
 }
 
 .section-heading {
@@ -41,6 +39,10 @@
     flex-wrap: nowrap;
     align-items: center;
     gap: 31px;
+    @media (min-width: 1024px) and (max-width: 1200px) {
+        transform: scale(0.7);
+        align-self: flex-end;
+    }
 }
 
 

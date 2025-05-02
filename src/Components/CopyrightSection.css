@@ -3,8 +3,8 @@
     background: #002F5F;
 }
 .cprt-container{
-margin: 0 auto;
+    padding: 1rem 0;
 }
 .cprt{
-
+    text-align: center;
 }
